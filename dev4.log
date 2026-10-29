@@ -1,0 +1,36 @@
+▲ Next.js 16.4.3 (webpack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 26.8s
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: Invalid access to memory location.
+\\?\C:\Users\aisha\AI Practice\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+✓ Running next.config.ts took 2.8s
+  Skipping creating a lockfile at C:\Users\aisha\AI Practice\.next\dev\lock because we're using WASM bindings
+- Experiments (use with caution):
+  · optimizePackageImports
+
+○ Compiling /page ...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+Request timed out after 3000ms
+
+Retrying 1/3...
+ GET / 200 in 28.2s (next.js: 23.4s, application-code: 4.8s)
+ GET /services 200 in 1217ms (next.js: 989ms, application-code: 228ms)
+ GET /services 200 in 165ms (next.js: 4ms, application-code: 161ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /work 200 in 247ms (next.js: 109ms, application-code: 137ms)
+ GET /about 200 in 602ms (next.js: 498ms, application-code: 104ms)
+ GET /insights 200 in 409ms (next.js: 254ms, application-code: 154ms)
+○ Compiling /contact/page ...
+ GET /contact 200 in 394ms (next.js: 285ms, application-code: 109ms)
+ GET /services 200 in 386ms (next.js: 71ms, application-code: 315ms)
+ GET /about 200 in 326ms (next.js: 165ms, application-code: 161ms)
+ GET /services 200 in 153ms (next.js: 8ms, application-code: 145ms)

@@ -1,0 +1,16 @@
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+✓ Ready in 67s
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: Invalid access to memory location.
+\\?\C:\Users\aisha\AI Practice\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+✓ Running next.config.ts took 7.2s
+  Skipping creating a lockfile at C:\Users\aisha\AI Practice\.next\dev\lock because we're using WASM bindings
+Error: Turbopack is not supported on this platform (win32/x64) because native bindings are not available. Only WebAssembly (WASM) bindings were loaded, and Turbopack requires native bindings.
+
+To use Next.js on this platform, use Webpack instead:
+  next dev --webpack
+
+For more information, see: https://nextjs.org/docs/app/api-reference/turbopack#supported-platforms
+    at ignore-listed frames
+[?25h
